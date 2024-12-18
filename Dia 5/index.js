@@ -7,16 +7,13 @@ switch(operador) {
         console.log('Você escolheu soma, então: ' + (num1 + num2))
         break;
     case '-':
-        console.log('Você escolheu soma, então: ' + (num1 - num2))
+        console.log('Você escolheu subtração, então: ' + (num1 - num2))
         break;
     case '*':
-        console.log('Você escolheu soma, então: ' + (num1 * num2))
-        break;
-    case '/':
-        console.log('Você escolheu soma, então: ' + (num1 / num2))
+        console.log('Você escolheu multiplicação, então: ' + (num1 * num2))
         break;
     default:
-        console.log('Você não escolheu, clique F5 e escolha um operador')
+        console.log('Você escolheu divisão, então: ' + (num1 / num2))
         break;
 }
 
