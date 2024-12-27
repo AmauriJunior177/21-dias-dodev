@@ -11,6 +11,12 @@ function calculadora() {
         return console.log(num1 * num2)
     }else if (operacao == '/'){
         return console.log(num1 / num2) 
-    };
+    }else if (operacao == 'e'){
+        let resultado = 1;
+        for(let i = 0; i < num2; i++){
+            resultado *= num1;
+        }
+        console.log(resultado);
+    }
 }
 calculadora()
